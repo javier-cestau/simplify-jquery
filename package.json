@@ -1,0 +1,28 @@
+{
+  "name": "simplify-jquery",
+  "version": "0.1.0",
+  "description": "This no use jQuery, is only a library for Jquery syntax lovers and basic commands",
+  "main": "index.js",
+  "repository": "https://github.com/raxor123/simple-jquery",
+  "author": "Javier Cestau",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "lint": "eslint index.js",
+    "start": "webpack index.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.4",
+    "eslint": "^5.8.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "standard": "^12.0.1",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
