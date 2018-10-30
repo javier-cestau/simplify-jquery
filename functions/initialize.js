@@ -13,16 +13,15 @@ const EventsArray = [
 
 module.exports = () => {
   for (let event of EventsArray) {
+    const eventToAttach = event === 'submition' ? 'submit' : event
+
     HTMLElement.prototype[event] = function (callback) {
-      const eventToAttach = event === 'submition' ? 'submit' : event
       this.addEventListener(eventToAttach, callback)
     }
-  }
 
-  for (let event of EventsArray) {
     NodeList.prototype[event] = function (callback) {
       this.forEach(function (element) {
-        element.addEventListener(event, callback)
+        element.addEventListener(eventToAttach, callback)
       })
       // addEvent.call(null, event, callback)
     }

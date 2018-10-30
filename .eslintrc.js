@@ -12,7 +12,9 @@ module.exports = {
     // If "no-undef" is enabled below, be sure to list all global variables that
     // are used in this app's backend code (including the globalIds of models):
     // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-    "$": true
+    "$": true,
+    "HTMLElement": true,
+    "NodeList": true
   },
   // add your custom rules here
   'rules': {

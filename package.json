@@ -7,6 +7,13 @@
   "author": "Javier Cestau",
   "license": "MIT",
   "private": false,
+  "keywords": [
+    "jquery",
+    "simplify",
+    "syntax",
+    "basic",
+    "simple"
+  ],
   "scripts": {
     "lint": "eslint index.js",
     "start": "webpack index.js"
