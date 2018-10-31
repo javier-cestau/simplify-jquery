@@ -1,6 +1,6 @@
 {
   "name": "simplify-jquery",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "This is not a jQuery plugin, neither uses jQuery, it is only a library for Jquery syntax lovers and basic commands",
   "main": "index.js",
   "repository": "https://github.com/raxor123/simplify-jquery",

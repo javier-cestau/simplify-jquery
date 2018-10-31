@@ -33,7 +33,7 @@ and
 on your main file project
 
 #### Creating a JS file
-if you don't like any of the above you can just copy this [bundle](https://raw.githubusercontent.com/raxor123/simplify-jquery/master/dist/simple-jquery.js) and copy-paste on your separated javascript file and include it in your project and have fun!
+if you don't like any of the above you can just copy this [bundle](https://raw.githubusercontent.com/raxor123/simplify-jquery/master/dist/simplify-jquery.js) and copy-paste on your separated javascript file and include it in your project and have fun!
 
 ## To keep in mind
 Before showing you some examples we'd like that you **keep in mind** a few things
@@ -122,4 +122,4 @@ Notice that we use **textContent** property that is a vanilla JS property.
 ----
 # Issues :boom:
 
-Feel free to open issues, this is being tested and is on the 0.1.0 version
+Feel free to open issues, this is being tested and is on the 0.1.2 version
