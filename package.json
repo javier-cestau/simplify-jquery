@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "description": "This is not a jQuery plugin, neither uses jQuery, it is only a library for Jquery syntax lovers and basic commands",
   "main": "index.js",
-  "repository": "https://github.com/raxor123/simple-jquery",
+  "repository": "https://github.com/raxor123/simplify-jquery",
   "author": "Javier Cestau",
   "license": "MIT",
   "private": false,
